@@ -74,6 +74,45 @@ img{
 
 /* Header  */
 .header{
-     width: 100%;
      text-align: center;
+     width: 100%;
+}
+
+.header-image{
+
+}
+
+.main-section {
+}
+.container {
+}
+.box-inner-section {
+}
+.box-section {
+}
+.profile-image {
+}
+.profile-name {
+}
+.profile-new {
+}
+.profile-features {
+}
+.profile-text-wrapper {
+}
+.profile-text {
+}
+.profile-search {
+}
+.profile-search-list {
+}
+.profile-search-link {
+}
+.profile-text-info {
+}
+.profile-info-date {
+}
+.profile-info-position {
+}
+.profile-info-place {
 }
