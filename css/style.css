@@ -58,14 +58,22 @@ img{
 /* CONTAINER  */
 .container{
      width: 100%;
-     max-width: 1200px;
+     max-width: 1400px;
      margin-left: auto;
      margin-right: auto;
-     padding-left: 50px;
-     padding-right: 50px;
+     padding-left: 128px;
+     padding-right: 128px;
 }
+
+
 
 /* Main content  */
 .main-content{
      flex-grow: 1;
+}
+
+/* Header  */
+.header{
+     width: 100%;
+     text-align: center;
 }
