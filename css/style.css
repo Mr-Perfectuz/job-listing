@@ -25,6 +25,7 @@
      --white: #fff;
      --black: #2B3939;
      --light-black: #7C8F8F;
+     --dot-color: #B7C4C4;
 
 }
 
@@ -191,7 +192,6 @@ img{
 .profile-text-wrapper {
      display: flex;
      align-items: center;
-     justify-content: space-between;
      margin-top: 8px;
      margin-bottom: 8px;
 
@@ -205,6 +205,7 @@ img{
      font-weight: bold;
      font-size: 18px;
      line-height: 24px;
+     margin-right: 250px;
 }
 
 .profile-text:hover{
@@ -219,7 +220,7 @@ img{
      display: flex;
      align-items: center;
      justify-content: space-between;
-     /* margin-left: auto; */
+     margin-left: auto;
 
 }
 .profile-search-list {
@@ -251,13 +252,36 @@ img{
      font-size: 15px;
      line-height: 24px;
      letter-spacing: -0.115385px;
+     display: flex;
+     flex-direction: row;
+     flex-wrap: nowrap;
+     position: relative;
 
 }
-.profile-info-date {
-     margin-right: 16px;
+.seperated-dot{
+     position: absolute;
+     left: 7%;
+     right: 20%;
+     top: -10%;
+     bottom: 20%;
+     color: var(--dot-color);
 }
+.seperated-dot-two{
+     position: absolute;
+     left: 18%;
+     right: 20%;
+     top: -10%;
+     bottom: 20%;
+     color: var(--dot-color);
+}
+
+.profile-info-date {
+     margin-right: 34px;
+
+}
+
 .profile-info-position {
-     margin-right: 16px;
+     margin-right: 34px;
 }
 .profile-info-place {
 }
