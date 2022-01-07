@@ -113,6 +113,10 @@ img{
      box-shadow: 0px 15px 20px -5px rgba(13, 113, 130, 0.15);
      border-radius: 5px;
 }
+
+.box-section:last-child{
+     margin-bottom: 120px;
+}
 .profile-image {
      width: 88px;
      height: 88px;
@@ -141,6 +145,13 @@ img{
      font-weight: bold;
      font-size: 14px;
      line-height: 16px;
+}
+
+.profile-name:hover{
+     opacity: 0.8;
+}
+.profile-name:active{
+     opacity: 0.6;
 }
 
 /* Profile New button  */
@@ -194,10 +205,10 @@ img{
      align-items: center;
      margin-top: 8px;
      margin-bottom: 8px;
+     justify-content: space-between;
 
 }
 .profile-text {
-     margin: 0;
      padding: 0;
      text-decoration: none;
      color: var(--black);
@@ -206,6 +217,7 @@ img{
      font-size: 18px;
      line-height: 24px;
      margin-right: 250px;
+     /* margin-right: auto; */
 }
 
 .profile-text:hover{
@@ -220,7 +232,7 @@ img{
      display: flex;
      align-items: center;
      justify-content: space-between;
-     margin-left: auto;
+     /* margin-left: auto; */
 
 }
 .profile-search-list {
