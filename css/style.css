@@ -262,7 +262,7 @@ img{
      position: absolute;
      left: 7%;
      right: 20%;
-     top: -10%;
+     top: -20%;
      bottom: 20%;
      color: var(--dot-color);
 }
@@ -270,7 +270,7 @@ img{
      position: absolute;
      left: 18%;
      right: 20%;
-     top: -10%;
+     top: -20%;
      bottom: 20%;
      color: var(--dot-color);
 }
