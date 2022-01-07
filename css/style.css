@@ -17,7 +17,16 @@
      font-display: swap;
 }
 
+/* Cusom Props  */
+:root{
+     --font-family:"Spartan", "Arial", sans-serif;
+     --light-green: #5CA5A5;
+     --bg-color:  #eaf4f4;
+     --white: #fff;
+     --black: #2B3939;
+     --light-black: #7C8F8F;
 
+}
 
 
 
@@ -43,11 +52,11 @@ body{
      display: flex;
      font-size: 16px;
      line-height: 1.5 ;
-     font-family: "Arial", sans-serif;
+     font-family: var(--font-family);
      flex-direction: column;
      height: 100%;
-     background-color: #fff;
-     color: #222;
+     background-color: var(--bg-color);
+     color: var(--black);
 }
 
 img{
@@ -76,6 +85,7 @@ img{
 .header{
      text-align: center;
      width: 100%;
+     margin-bottom: 76px;
 }
 
 .header-image{
@@ -84,35 +94,170 @@ img{
 
 .main-section {
 }
-.container {
-}
+
 .box-inner-section {
+     display: flex;
+     flex-direction: column;
 }
+
+/* Box Section  */
 .box-section {
+     width: 100%;
+     max-width: 1200px;
+     background-color: var(--white);
+     display: flex;
+     margin-bottom: 24px;
+     padding-top: 32px;
+     padding-bottom: 32px;
+     box-shadow: 0px 15px 20px -5px rgba(13, 113, 130, 0.15);
+     border-radius: 5px;
 }
 .profile-image {
+     width: 88px;
+     height: 88px;
+     margin-left: 40px;
+     margin-right: 24px;
+}
+.profile-text-inner{
+     display: flex;
+     flex-direction: column;
+     margin: 0;
+     padding: 0;
+}
+.profile-name-wrapper{
+     margin: 0;
+     padding: 0;
+     display: flex;
+     align-items: center;
 }
 .profile-name {
+     margin: 0;
+     padding: 0;
+     margin-right: 16px;
+     font-family: var(--font-family);
+     color: var(--light-green);
+     font-style: normal;
+     font-weight: bold;
+     font-size: 14px;
+     line-height: 16px;
 }
+
+/* Profile New button  */
 .profile-new {
+     margin-right: 8px;
+     text-decoration: none;
+     background-color: var(--light-green);
+     color: var(--white);
+     text-transform: uppercase;
+     padding: 6px 8px 4px 8px;
+     border-radius: 12px;
+     letter-spacing: 1;
+     text-align: center;
+     font-style: normal;
+     font-weight: bold;
+     font-size: 11px;
+     line-height: 14px;
 }
+
+.profile-new:hover {
+     opacity: 0.8;
+}
+.profile-new:active{
+     opacity: 0.6;
+}
+
+/* Profile Features button  */
 .profile-features {
+     text-decoration: none;
+     background-color: var(--black);
+     color: var(--white);
+     text-transform: uppercase;
+     letter-spacing: 1;
+     font-style: normal;
+     font-weight: bold;
+     font-size: 11px;
+     line-height: 14px;
+     padding: 6px 8px 4px 8px ;
+     border-radius: 12px;
+}
+
+.profile-features:hover{
+     opacity: 0.8;
+}
+
+.profile-features:active{
+     opacity: 0.6;
 }
 .profile-text-wrapper {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     margin-top: 8px;
+     margin-bottom: 8px;
+
 }
 .profile-text {
+     margin: 0;
+     padding: 0;
+     text-decoration: none;
+     color: var(--black);
+     font-style: normal;
+     font-weight: bold;
+     font-size: 18px;
+     line-height: 24px;
+}
+
+.profile-text:hover{
+     opacity: 0.8;
+}
+
+.profile-text:active{
+     opacity: 0.6;
 }
 .profile-search {
+     margin: 0;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     /* margin-left: auto; */
+
 }
 .profile-search-list {
+     list-style: none;
+     display: flex;
+     align-items: center;
+}
+
+.profile-search-list:not(:last-child){
+     margin-right: 16px;
 }
 .profile-search-link {
+     text-decoration: none;
+     text-align: center;
+     color: var(--light-green);
+     background-color: var(--bg-color);
+     padding: 4px 8px;
+     font-style: normal;
+     font-weight: bold;
+     font-size: 13px;
+     line-height: 24px;
+     letter-spacing: -0.1px;
+     border-radius: 4px;
 }
 .profile-text-info {
+     color: var(--light-black);
+     font-style: normal;
+     font-weight: 500;
+     font-size: 15px;
+     line-height: 24px;
+     letter-spacing: -0.115385px;
+
 }
 .profile-info-date {
+     margin-right: 16px;
 }
 .profile-info-position {
+     margin-right: 16px;
 }
 .profile-info-place {
 }
